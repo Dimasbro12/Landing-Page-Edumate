@@ -1,6 +1,6 @@
 <?php
 // Menggunakan autoloader dari Composer (sesuaikan path jika folder vendor ada di luar folder Src)
-require '../vendor/autoload.php';
+require 'vendor/autoload.php';
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;

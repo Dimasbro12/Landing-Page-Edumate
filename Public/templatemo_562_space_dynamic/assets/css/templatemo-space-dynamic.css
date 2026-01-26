@@ -1975,6 +1975,18 @@ responsive
   .header-area .main-nav:before {
     display: none;
   }
+  .about-us .icon-rounded-square {
+    margin: 2px;
+    padding: 0px;
+  }
+
+  .hubungi-kami iframe {
+    width: 100% !important;
+    margin-left: 0px !important;
+  }
+  footer h1 {
+    transform: scale(0.8);
+  }
 }
 
 /* --- TAMPILAN TABLET LANDSCAPE / LAPTOP KECIL (Screen < 992px) --- */
@@ -2233,7 +2245,7 @@ responsive
   .header-area .main-nav .nav li.submenu:focus ul {
     height: 0px;
   }
-  /* Beranda */
+
   .main-banner {
     padding-top: 120px;
     padding-bottom: 0px;
@@ -2284,7 +2296,7 @@ responsive
   .our-services .indikator {
     transform: scale(0.8);
   }
-  /*  */
+
   .about-us .section-heading p {
     margin: 0px;
     padding: 0px;
@@ -2299,7 +2311,7 @@ responsive
     gap: 20px;
     padding-bottom: 20px;
   }
-  /* Profil */
+
   .edumate-profile .about-us .icon-rounded-square {
     flex: 0 0 auto;
     margin: 0;
@@ -2581,7 +2593,7 @@ responsive
   }
   .edumate-profile .right-image {
     margin-top: -20px;
-    width: 200%;
+    width: 100%;
   }
 
   .edumate-profile .section-heading p {

@@ -1549,7 +1549,7 @@ FAQ
 }
 .faq .item li:has([aria-expanded="true"]) i,
 .faq .item li [aria-expanded="true"] i {
-  transform: rotate(-180deg);
+  transform: rotate(-180deg) !important;
 }
 .faq .item li > span:last-child {
   margin-left: auto;
@@ -2128,7 +2128,7 @@ responsive
 }
 
 /* --- TAMPILAN HP / MOBILE (Screen < 767px) --- */
-@media (max-width: 767px) {
+@media (max-width: 767px) and (orientation: landscape) {
   .background-header .main-nav .nav {
     margin-top: 80px !important;
   }
@@ -2314,7 +2314,6 @@ responsive
     align-items: center;
     justify-content: center;
   }
-  /* Layanan */
   .edumate-layanan .right-image {
     transform: scale(0.7);
   }
@@ -2325,7 +2324,6 @@ responsive
     margin: 0px;
     padding: 0px;
   }
-  /* Produk */
   .produk-edumate .section-heading {
     margin: 0px;
   }
@@ -2369,6 +2367,10 @@ responsive
   .faq {
     background-repeat: repeat !important;
     background-size: cover !important;
+  }
+  .faq .item li:has([aria-expanded="true"]) i,
+  .faq .item li [aria-expanded="true"] i {
+    transform: rotate(-180deg) !important;
   }
   .hubungiIcon {
     transform: scale(0.9);

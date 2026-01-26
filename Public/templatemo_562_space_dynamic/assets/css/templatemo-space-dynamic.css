@@ -1547,7 +1547,8 @@ FAQ
 .faq .item li i {
   transition: transform 0.5s;
 }
-.faq .item li:has([aria-expanded="true"]) i {
+.faq .item li:has([aria-expanded="true"]) i,
+.faq .item li [aria-expanded="true"] i {
   transform: rotate(-180deg);
 }
 .faq .item li > span:last-child {
@@ -1910,7 +1911,6 @@ Footer Style
 */
 footer {
   background-color: hsl(240, 20%, 22%);
-  height: 679px !important;
   background-size: cover;
 }
 footer h4 {

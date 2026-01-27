@@ -1119,7 +1119,6 @@ Produk
   font-size: smaller;
   font-family: "Montserrat", sans-serif;
 }
-
 .diakad-card {
   position: relative;
   max-width: 420px;
@@ -1342,10 +1341,8 @@ Feedback
 
 .feedback .card {
   background-color: transparent;
-  /* border: 1px solid #eee; */
   border-radius: 20px;
   border: none;
-  /* box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.07); */
   padding: 40px;
   text-align: left;
   width: 100%;
@@ -1730,6 +1727,7 @@ Produk Kerjasama Edumate
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
+
 /* 
 ---------------------------------------------
 Hubungi kami
@@ -1960,6 +1958,10 @@ responsive
 */
 
 @media (max-width: 1645px) {
+  .produk-row {
+    margin-left: 10%;
+  }
+
   form#contact .contact-dec {
     display: none;
   }
@@ -2350,6 +2352,85 @@ responsive
   .produk-edumate .section-heading h2 {
     margin-bottom: 0px;
   }
+  .produk-row {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    padding-bottom: 15px;
+  }
+  .prosedur-row-mobile {
+    margin: 0px;
+    padding: 0px;
+    top: 0px;
+    margin-top: -10%;
+  }
+  .timeline-with-icons {
+    border-left: 2px solid #2c2c42;
+    position: relative;
+    list-style: none;
+  }
+  .timeline-with-icons .timeline-item {
+    position: relative;
+  }
+  .timeline-marker {
+    position: absolute;
+    left: 0;
+    top: 1.2rem;
+
+    width: 28px;
+    height: 28px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: #2c2c42;
+    color: #fff;
+
+    font-size: 0.7rem;
+    font-weight: 700;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    z-index: 2;
+  }
+  .timeline-with-icons .timeline-item:after {
+    position: absolute;
+    display: block;
+    top: 0;
+  }
+
+  .timeline-card-wrapper {
+    margin-left: 2.5rem;
+    max-width: 260px;
+  }
+
+  .timeline-card-wrapper .produk-card {
+    border-radius: 14px;
+  }
+
+  .timeline-card-wrapper .card-body {
+    padding: 1rem;
+  }
+
+  .timeline-card-wrapper .produk-title {
+    font-size: 1.1rem;
+    line-height: 1.2;
+  }
+
+  .timeline-card-wrapper .produk-title span {
+    font-size: 0.9rem;
+  }
+
+  .timeline-card-wrapper .produk-desc {
+    font-size: 0.85rem;
+    line-height: 1.4;
+  }
+
+  .timeline-card-wrapper .produk-icon img {
+    width: 36px;
+    height: auto;
+  }
+
   .hubungi-kami .right-image img {
     display: none;
   }
@@ -2607,9 +2688,6 @@ responsive
     margin-top: -40px;
     padding: 0px;
     transform: scale(0.7);
-  }
-  .edumate-layanan .layanan-item {
-    /* margin-bottom: 4px !important; */
   }
   .edumate-layanan .right-image {
     margin: 0px;

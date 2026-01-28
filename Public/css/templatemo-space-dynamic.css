@@ -734,7 +734,7 @@ Banner Style
   padding: 150px 0px 120px 0px;
   position: relative;
   overflow: hidden;
-  background-image: url(../../../Assets/Bg-Section-1.png);
+  background-image: url(/Public/Assets/Bg-Section-1.png);
 }
 
 .main-banner .left-content {
@@ -1006,7 +1006,7 @@ Edumate Profile
 }
 
 .about-us {
-  background-image: url(../../../Assets/Banner_Section2.svg);
+  background-image: url(/Public/Assets/Banner_Section2.svg);
   background-repeat: no-repeat;
   background-position: center center;
   padding: 140px 0px 120px 0px;
@@ -1289,7 +1289,7 @@ Feedback
 --------------------------------------------- 
 */
 .feedback {
-  background-image: url(../../../Assets/Bulat_Background_section6.svg);
+  background-image: url(/Public/Assets/Bulat_Background_section6.svg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100%;
@@ -1497,7 +1497,7 @@ FAQ
 .faq {
   padding-top: 60px;
   margin-top: 0px;
-  background-image: url(../../../Assets/Background_section8.svg);
+  background-image: url(/Public/Assets/Background_section8.svg);
   background-repeat: no-repeat;
   background-size: 110%;
 }
@@ -1598,7 +1598,7 @@ Produk Kerjasama Edumate
 .produk-kerjasama {
   padding-top: 60px;
   margin-top: 0px;
-  background-image: url(../../../Assets/BG_Banner_section8.svg);
+  background-image: url(/Public/Assets/BG_Banner_section8.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -1735,7 +1735,7 @@ Hubungi kami
 */
 .hubungi-kami {
   padding: 80px 0;
-  background-image: url(../../../Assets/BG_Section9.svg);
+  background-image: url(/Public/Assets/BG_Section9.svg);
 }
 
 .hubungi-kami .section-heading h1 {
@@ -2348,6 +2348,13 @@ responsive
   }
   .produk-edumate .adselku-card {
     transform: scale(0.8);
+  }
+
+  .produk-edumate .diakad-card .diakad-title > span {
+    font-size: 18px;
+  }
+  .produk-edumate .adselku-card .adselku-title > span {
+    font-size: 18px;
   }
   .produk-edumate .section-heading h2 {
     margin-bottom: 0px;

@@ -2356,6 +2356,7 @@ responsive
   }
   .produk-row .col-sm-12 {
     margin-bottom: -10px;
+    justify-content: start;
   }
 
   .produk-edumate .diakad-card .diakad-title > span {
@@ -2368,10 +2369,7 @@ responsive
     margin-bottom: 0px;
   }
   .produk-row {
-    /* overflow-x: auto;
-    flex-wrap: nowrap;
-    padding-bottom: 15px; */
-    transform: scale(0.9);
+    margin-left: 0;
   }
   .prosedur-row-mobile {
     margin: 0px;

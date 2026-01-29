@@ -2149,6 +2149,7 @@ responsive
   }
   .header-area .main-nav .logo {
     color: #2c2c42;
+    transform: scale(0.85);
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
